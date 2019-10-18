@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid black;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    grid-template-columns: 20% 40% auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+body{
+    background-color: gray;
+}
+@media screen and (max-width: 990px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: olive;
+    }
+}
+
+.row{
+    border: 1px solid blue;
+}
